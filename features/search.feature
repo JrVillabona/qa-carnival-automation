@@ -2,7 +2,7 @@ Feature: Search
 
 In order to can Search items
 As an visitor to the page of Carnival
-I want to search clothes through the searchbox
+I want to search a cruise
 
 @SearchcruisetotheBahamas
 Scenario: See a grid with the results of search to The Bahamas with a duration between 6 and 9 days.

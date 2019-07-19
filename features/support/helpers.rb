@@ -42,8 +42,8 @@ module Helpers
 
   def selectthebahamas
     sleep 2
-    wait_for_element_to_display(:xpath, "//button[contains(@aria-label,'The Bahamas ')]", 20)
-    click(:xpath, "//button[contains(@aria-label,'The Bahamas ')]")
+    wait_for_element_to_display(:xpath, "//button[contains(.,'The Bahamas')]", 15)
+    click(:xpath, "//button[contains(.,'The Bahamas')]")
   end
 
   def clickdropdownduration
@@ -53,7 +53,7 @@ module Helpers
   end
 
   def selectduration
-    wait_for_element_to_display(:xpath, "//button[contains(.,'6 - 9 Days')]", 10)
+    wait_for_element_to_display(:xpath, "//button[contains(.,'6 - 9 Days')]", 15)
     click(:xpath, "//button[contains(.,'6 - 9 Days')]")
     sleep 2
   end
