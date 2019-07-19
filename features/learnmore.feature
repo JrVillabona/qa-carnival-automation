@@ -1,5 +1,3 @@
-Feature: Search
-
 Feature: Learn more about the trip
 
 In order to can learn more about the a trip
