@@ -2,6 +2,7 @@
 
 Before do
   navigate_to($app_path)
+  sleep 3
 end
 Before('@SearchcruisetotheBahamas') do
   # This will only run before scenarios tagged
